@@ -32,11 +32,7 @@ You may tailor this to your repository’s specifics.
 
 Describe the languages, libraries, frameworks, tools used. For example:
 
-* Language: Python / Java / JavaScript / C++ (whichever fits)
-* Library or engine: e.g., Pygame for Python, HTML5 Canvas + JS, etc
-* Build tools, dependencies
-* Platform: desktop, web, mobile
-
+* Language: Python 
 ---
 
 ## Project Structure
@@ -47,18 +43,11 @@ Explain the main files and folder organization. Example:
 /snake-game
 │  README.md
 │  main.py                ← entry point
-│  game_logic.py          ← module for snake movement, collisions
-│  rendering.py           ← module for drawing the game
-│  assets/
-│    images/
-│    sounds/
-│  config.py              ← configurable parameters (grid size, speed)
+│  food.py          
+│  scoreboard.py           
+│  sanke.py              
 │  …
 ```
-
-Add a short description of each major file/module.
-
----
 
 ## Installation & Setup
 
@@ -100,7 +89,7 @@ Detail steps for someone to get the project running:
 
 Explain user controls and rules:
 
-* Use arrow keys / WASD to move the snake up/down/left/right
+* Use arrow keys to move the snake up/down/left/right
 * The snake continuously moves; direction changes via input
 * Eat the food icon/item to grow longer and increase score
 * Avoid collisions:
