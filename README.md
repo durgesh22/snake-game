@@ -1,6 +1,4 @@
-## Project Title
-
-**Snake-Game**
+##Snake-Game##
 *A classic snake game implementation*
 
 ---
